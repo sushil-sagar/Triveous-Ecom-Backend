@@ -63,7 +63,22 @@ Start the server:
    ```bash
    npm start
    ```
-
+# Database configuration
+```bash
+DB_NAME=your_database_name
+DB_USER=your_database_user
+DB_PASSWORD=your_database_password
+DB_HOST=your_database_host
+DB_PORT=your_database_port
+```
+# JWT secret key
+```bash
+JWT_SECRET=your_jwt_secret
+```
+# Server port
+```bash
+PORT=3000
+```
 ## API Documentation
 
 The API documentation can be found in the `docs` folder. You can view the documentation by opening the `index.html` file in a web browser.
