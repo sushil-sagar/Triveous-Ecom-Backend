@@ -1,9 +1,23 @@
+---
 
-
-```markdown
-## E-commerce API with Node.js
+# E-commerce API with Node.js
 
 This project implements a RESTful API for an e-commerce platform, allowing users to perform various operations such as browsing products, managing carts, and placing orders.
+
+## Table of Contents
+
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Database Setup](#database-setup)
+- [Usage](#usage)
+- [API Documentation](#api-documentation)
+- [Endpoints](#endpoints)
+- [Security](#security)
+- [Error Handling](#error-handling)
+- [Rate Limiting](#rate-limiting)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Requirements
 
@@ -30,18 +44,21 @@ This project implements a RESTful API for an e-commerce platform, allowing users
    npm install
    ```
 
-3. Set up the database:
+## Database Setup
 
-   - Create a database in MySQL or PostgreSQL.
-   - Copy the `.env.example` file to `.env` and update the database credentials.
+1. Create a database in MySQL or PostgreSQL.
 
-4. Run the migration to create the database schema:
+2. Copy the `.env.example` file to `.env` and update the database credentials.
+
+3. Run the migration to create the database schema:
 
    ```bash
    npx sequelize-cli db:migrate
    ```
 
-5. Start the server:
+## Usage
+
+Start the server:
 
    ```bash
    npm start
@@ -86,6 +103,5 @@ The API documentation can be found in the `docs` folder. You can view the docume
 ## License
 
 - This project is licensed under the MIT License - see the `LICENSE` file for details.
-```
 
-Feel free to customize this template based on your project's specific requirements and features.
+---
